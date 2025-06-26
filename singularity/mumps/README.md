@@ -24,7 +24,7 @@ singularity shell --writable \
   mumps-dev
 ```
 
-Path to the matlab directory and "make all" , "make.inc" will do all of the work.
+Ensure your make.inc file correctly points to the MATLAB install and run "make all" to compile the .mexa64 files automatically.
 
 ## Leave the singularity sandbox and build a slim development singularity image file (sif) for HPC deployment, using only the compiled objects we need
 ```bash
