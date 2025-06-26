@@ -1,7 +1,7 @@
 # MUMPS Docker Build
 
 This directory contains the build files for compiling **MUMPS 5.8.0** in a Docker container.
-# NOTE: you'll need to request MUMPS 5.8.0 access from the developers and then download the source files
+# NOTE: you'll need to request MUMPS 5.8.0 access from the developers and then download the source files:
 https://mumps-solver.org/index.php?page=dwnld
 
 ## File Descriptions
@@ -17,5 +17,4 @@ https://mumps-solver.org/index.php?page=dwnld
 
 docker build -t mumps_build .
 
-# NOTE: If you intend to use MUMPS in Matlab, you will need to get creative here and provide your own
-# licensed Matlab, or a trial (I used a trial license for R2025a to test this) to compile and test the mexafiles.
+# NOTE: If you intend to use MUMPS in Matlab, you will need to get creative here and provide your own licensed Matlab, or a trial (I used a trial license for R2025a) to compile and test the mexafiles.
