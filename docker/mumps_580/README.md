@@ -17,7 +17,7 @@ https://mumps-solver.org/index.php?page=dwnld
 
 You can test the compiled examples at /usr/src/MUMPS_5.8.0/examples, check the readme or:
 ```bash
-dsimpletest < input_simpletest_real
+./dsimpletest < input_simpletest_real
 ```
 
 ```bash
