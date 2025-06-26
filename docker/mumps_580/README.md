@@ -15,6 +15,11 @@ https://mumps-solver.org/index.php?page=dwnld
 
 ## Build Instructions
 
+You can test the compiled examples at /usr/src/MUMPS_5.8.0/examples, check the readme or:
+```bash
+dsimpletest < input_simpletest_real
+```
+
 ```bash
 docker build -t mumps_build .
 ```
