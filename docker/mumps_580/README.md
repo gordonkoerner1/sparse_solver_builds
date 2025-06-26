@@ -19,4 +19,4 @@ https://mumps-solver.org/index.php?page=dwnld
 docker build -t mumps_build .
 ```
 
-# NOTE: If you intend to use MUMPS in Matlab, you will need to get creative here and provide your own licensed Matlab, or a trial (I used a trial license for R2025a) to compile and test the mexafiles.
+# NOTE: If you intend to use MUMPS in Matlab, you will need to get creative here and provide your own licensed Matlab, or a trial (I used a trial license for R2025a) to compile and test the mexafiles. I used a singularity sandbox on my local system for this, detailed in the singularity section of the project.
