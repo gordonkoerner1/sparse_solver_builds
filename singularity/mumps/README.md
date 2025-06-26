@@ -26,7 +26,7 @@ singularity shell --writable \
 
 Path to the matlab directory and "make all" , "make.inc" will do all of the work.
 
-## Leave the singularity sandbox and build a slim development singularity image file (sif) for HPC deployment, using only the compiled files we need to use mumps
+## Leave the singularity sandbox and build a slim development singularity image file (sif) for HPC deployment, using only the compiled objects we need
 ```bash
 sudo singularity build mumps_slim_final.sif mumps_slim.def
 ```
