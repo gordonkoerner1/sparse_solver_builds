@@ -46,7 +46,7 @@ singularity shell -B /path/to/matlab:/matlab mumps-dev/
 
 ### Package the Slim HPC Runtime
 ```bash
-singularity build mumps-hpc.sif singularity/mumps/
+sudo singularity build mumps_slim_final.sif mumps_slim.def
 ```
 
 ---
