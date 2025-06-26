@@ -19,10 +19,11 @@ Turn-key containerized builds for high-performance sparse solvers: **MUMPS 5.8.0
 | Docker         | 27.3.1                          |
 | Singularity-CE | 4.2.1                           |
 | MATLAB         | R2025a Trial (2FA login GUI)    |
-| CUDA Toolkit   | 12.3 (display GPU)              |
+| NVidia Driver  | 570.169                         |
+| CUDA Toolkit   | 12.9 (display GPU)              |
 | GPU            | NVIDIA RTX 3090 (compute 8.6)   |
-| MUMPS          | 5.8.0                           |
-| SuiteSparse    | (latest from GitHub master)     |
+| MUMPS          | 5.8.0  (May 2025,newest)        |
+| SuiteSparse    | 7.10.3 (May 2025,newest)        |
 
 > This repo assumes you have a working NVIDIA driver and CUDA runtime on your host. All builds are performed assuming a **GPU with compute capability 8.6**.
 
