@@ -15,6 +15,8 @@ https://mumps-solver.org/index.php?page=dwnld
 
 ## Build Instructions
 
+```bash
 docker build -t mumps_build .
+```
 
 # NOTE: If you intend to use MUMPS in Matlab, you will need to get creative here and provide your own licensed Matlab, or a trial (I used a trial license for R2025a) to compile and test the mexafiles.
